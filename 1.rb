@@ -14,7 +14,7 @@ def fizzbuzz
 		text = ""
 		fizz(num, text)
 		buzz(num, text)
-		text = num.to_s if text.empty?
+		text = num.to_s if text.empty? #出力する文字列がなければそのまま数を出す
 		puts text
 	end
 end
